@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gedi"
+version = "0.1.0"
+description = "Geometric Deep model for registration"
+readme = "README.md"
+authors = [{name = "GeDi contributors"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["gedi", "demo", "download_data"]
